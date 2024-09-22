@@ -53,6 +53,7 @@ def kaprekar_process(num):
 
 
 if __name__ == "__main__":
+    print("## Kaprekar's Constant ##\nFor any 4 digit number, sorting the digits in descending and ascending order,\nsubtracting the smaller number from the larger repeatedly will eventually reach\nthe Kaprekar's number, which is 6174, in 7 or less steps.\n\n")
     # Take user input
     user_input = input("Enter a 4-digit number: ")
 
